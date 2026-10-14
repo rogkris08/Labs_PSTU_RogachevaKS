@@ -57,5 +57,13 @@ int main()
     double res_2 = (comm1_2 - comm2_2) / comm3_2;
     cout << fixed << "Вывод в double: (comm1 - comm2) / comm3: " << res_2 << endl;
 
+    cout << "Задание 2" << endl;
+
+    int n, m;
+    cin >> n >> m;
+    cout << "1. " << (--m - ++n) << endl;
+    cout << "2. " << ((m * n) < n++) << endl;
+    cout << "3. " << (n-- > m++) << endl;
+
     return 0;
   }
